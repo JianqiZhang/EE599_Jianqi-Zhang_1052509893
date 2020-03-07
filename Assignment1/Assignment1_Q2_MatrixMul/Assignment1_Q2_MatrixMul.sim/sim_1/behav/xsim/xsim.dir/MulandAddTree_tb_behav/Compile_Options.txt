@@ -1,0 +1,1 @@
+-wto "78407f68612b408f89fce2069ec76a24" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "MulandAddTree_tb_behav" "xil_defaultlib.MulandAddTree_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

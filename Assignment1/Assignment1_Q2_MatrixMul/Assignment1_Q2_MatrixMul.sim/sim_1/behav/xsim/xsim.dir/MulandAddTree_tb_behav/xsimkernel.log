@@ -1,0 +1,7 @@
+Running: xsim.dir/MulandAddTree_tb_behav/xsimk.exe -simmode gui -wdb MulandAddTree_tb_behav.wdb -simrunnum 0 -socket 62149
+Design successfully loaded
+Design Loading Memory Usage: 5284 KB (Peak: 5284 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 5964 KB (Peak: 5964 KB)
+Simulation CPU Usage: 15 ms

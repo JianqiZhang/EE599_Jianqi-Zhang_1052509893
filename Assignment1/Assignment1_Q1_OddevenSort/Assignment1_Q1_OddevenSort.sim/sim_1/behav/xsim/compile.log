@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/XilinxPorject/Assignment1_Q1_OddevenSort/ee599_assignment1_Q1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CompareUnit
+INFO: [VRFC 10-311] analyzing module OddevenSort
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/XilinxPorject/Assignment1_Q1_OddevenSort/ee599_assignment1_Q1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OddevenSort_tb

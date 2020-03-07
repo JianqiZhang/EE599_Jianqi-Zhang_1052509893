@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/XilinxPorject/Assignment1_Q2_MatrixMul/ee599_assignment1_Q2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MultiplyUnit
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-311] analyzing module MultiplyStage
+INFO: [VRFC 10-311] analyzing module AdderStage
+INFO: [VRFC 10-311] analyzing module MulandAddTree
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/XilinxPorject/Assignment1_Q2_MatrixMul/ee599_assignment1_Q2_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MulandAddTree_tb
