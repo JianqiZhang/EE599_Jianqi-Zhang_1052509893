@@ -1,1 +1,1 @@
-# EE599_Jianqi-Zhang_1052509893
+# This is for EE599 Spring 2020 course assignment
