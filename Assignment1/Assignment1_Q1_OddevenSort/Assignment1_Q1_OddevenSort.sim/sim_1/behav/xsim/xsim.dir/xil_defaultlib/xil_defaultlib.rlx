@@ -3,5 +3,5 @@
 Dec  5 2019
 05:06:03
 D:/XilinxPorject/Assignment1_Q1_OddevenSort/Assignment1_Q1_OddevenSort.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
-D:/XilinxPorject/Assignment1_Q1_OddevenSort/ee599_assignment1_Q1.v,1583467647,verilog,,D:/XilinxPorject/Assignment1_Q1_OddevenSort/ee599_assignment1_Q1_tb.v,,CompareUnit;OddevenSort,,,,,,,,
-D:/XilinxPorject/Assignment1_Q1_OddevenSort/ee599_assignment1_Q1_tb.v,1583471843,verilog,,,,OddevenSort_tb,,,,,,,,
+D:/XilinxPorject/Assignment1_Q1_OddevenSort/ee599_assignment1_Q1.v,1583561709,verilog,,D:/XilinxPorject/Assignment1_Q1_OddevenSort/ee599_assignment1_Q1_tb.v,,CompareUnit;OddevenSort,,,,,,,,
+D:/XilinxPorject/Assignment1_Q1_OddevenSort/ee599_assignment1_Q1_tb.v,1585171065,verilog,,,,OddevenSort_tb,,,,,,,,

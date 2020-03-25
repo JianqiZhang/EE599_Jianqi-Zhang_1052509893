@@ -4,7 +4,7 @@
 // This design includes all components of Odd-even transposition sort.
 // It supports only n 8-bit arithmetic sort.
 //-------------------------
-`define NUMBER 32
+`define NUMBER 16
 `timescale 1 ns / 100 ps
 module OddevenSort_tb
 #(
