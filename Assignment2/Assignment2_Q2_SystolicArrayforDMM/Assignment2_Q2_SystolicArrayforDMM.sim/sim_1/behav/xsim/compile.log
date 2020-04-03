@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/XilinxPorject/Assignment2_Q2_SystolicArrayforDMM/ee599_assignment2_Q2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PE
+INFO: [VRFC 10-311] analyzing module PERow
+INFO: [VRFC 10-311] analyzing module SystolicArray
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/XilinxPorject/Assignment2_Q2_SystolicArrayforDMM/ee599_assignment2_Q2_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SystolicArray_tb

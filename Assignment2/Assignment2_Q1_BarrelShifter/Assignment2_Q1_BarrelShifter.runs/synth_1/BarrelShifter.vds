@@ -1,0 +1,638 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Thu Apr  2 21:04:56 2020
+# Process ID: 6064
+# Current directory: D:/XilinxPorject/Assignment2_Q1_BarrelShifter/Assignment2_Q1_BarrelShifter.runs/synth_1
+# Command line: vivado.exe -log BarrelShifter.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source BarrelShifter.tcl
+# Log file: D:/XilinxPorject/Assignment2_Q1_BarrelShifter/Assignment2_Q1_BarrelShifter.runs/synth_1/BarrelShifter.vds
+# Journal file: D:/XilinxPorject/Assignment2_Q1_BarrelShifter/Assignment2_Q1_BarrelShifter.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source BarrelShifter.tcl -notrace
+Command: synth_design -top BarrelShifter -part xc7z007sclg225-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z007s'
+INFO: [Device 21-403] Loading part xc7z007sclg225-2
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 24088 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 798.801 ; gain = 236.457
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'BarrelShifter' [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v:65]
+	Parameter k bound to: 64 - type: integer 
+	Parameter SELECT_BITS bound to: 6 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ShiftStage' [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v:39]
+	Parameter k bound to: 64 - type: integer 
+	Parameter shift bound to: 1 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'Mux' [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'Mux' (1#1) [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v:10]
+INFO: [Synth 8-6157] synthesizing module 'StageRegister' [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v:20]
+	Parameter k bound to: 64 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'StageRegister' (2#1) [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v:20]
+INFO: [Synth 8-6155] done synthesizing module 'ShiftStage' (3#1) [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v:39]
+INFO: [Synth 8-6157] synthesizing module 'ShiftStage__parameterized0' [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v:39]
+	Parameter k bound to: 64 - type: integer 
+	Parameter shift bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ShiftStage__parameterized0' (3#1) [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v:39]
+INFO: [Synth 8-6157] synthesizing module 'ShiftStage__parameterized1' [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v:39]
+	Parameter k bound to: 64 - type: integer 
+	Parameter shift bound to: 4 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ShiftStage__parameterized1' (3#1) [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v:39]
+INFO: [Synth 8-6157] synthesizing module 'ShiftStage__parameterized2' [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v:39]
+	Parameter k bound to: 64 - type: integer 
+	Parameter shift bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ShiftStage__parameterized2' (3#1) [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v:39]
+INFO: [Synth 8-6157] synthesizing module 'ShiftStage__parameterized3' [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v:39]
+	Parameter k bound to: 64 - type: integer 
+	Parameter shift bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ShiftStage__parameterized3' (3#1) [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v:39]
+INFO: [Synth 8-6157] synthesizing module 'ShiftStage__parameterized4' [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v:39]
+	Parameter k bound to: 64 - type: integer 
+	Parameter shift bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ShiftStage__parameterized4' (3#1) [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'BarrelShifter' (4#1) [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v:65]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 871.035 ; gain = 308.691
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 873.094 ; gain = 310.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 873.094 ; gain = 310.750
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.148 . Memory (MB): peak = 873.094 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/Assignment2_Q1_BarrelShifter.srcs/constrs_1/new/Assignment2_Q1_BarrelShifter_Constraints_Files.xdc]
+WARNING: [Constraints 18-619] A clock with name 'clk' already exists, overwriting the previous clock with the same name. [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/Assignment2_Q1_BarrelShifter.srcs/constrs_1/new/Assignment2_Q1_BarrelShifter_Constraints_Files.xdc:2]
+Finished Parsing XDC File [D:/XilinxPorject/Assignment2_Q1_BarrelShifter/Assignment2_Q1_BarrelShifter.srcs/constrs_1/new/Assignment2_Q1_BarrelShifter_Constraints_Files.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1001.063 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 1001.063 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1001.063 ; gain = 438.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z007sclg225-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1001.063 ; gain = 438.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1001.063 ; gain = 438.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1001.063 ; gain = 438.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	              512 Bit    Registers := 6     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 384   
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module StageRegister 
+Detailed RTL Component Info : 
++---Registers : 
+	              512 Bit    Registers := 1     
+Module Mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 66 (col length:40)
+BRAMs: 100 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1001.063 ; gain = 438.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-565] redefining clock 'clk'
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1001.063 ; gain = 438.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1001.063 ; gain = 438.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1001.063 ; gain = 438.719
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 1013.676 ; gain = 451.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 1013.676 ; gain = 451.332
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 1013.676 ; gain = 451.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1013.676 ; gain = 451.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:38 . Memory (MB): peak = 1013.676 ; gain = 451.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 1013.676 ; gain = 451.332
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     1|
+|3     |LUT3 |  3072|
+|4     |FDCE |  3072|
+|5     |IBUF |   520|
+|6     |OBUF |   512|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------------------+---------------------------+------+
+|      |Instance             |Module                     |Cells |
++------+---------------------+---------------------------+------+
+|1     |top                  |                           |  7178|
+|2     |  \StageArray[0].s   |ShiftStage                 |  1536|
+|3     |    \MuxArray[0].m   |Mux_259                    |    16|
+|4     |    \MuxArray[10].m  |Mux_260                    |    16|
+|5     |    \MuxArray[11].m  |Mux_261                    |    16|
+|6     |    \MuxArray[12].m  |Mux_262                    |    16|
+|7     |    \MuxArray[13].m  |Mux_263                    |    16|
+|8     |    \MuxArray[14].m  |Mux_264                    |    16|
+|9     |    \MuxArray[15].m  |Mux_265                    |    16|
+|10    |    \MuxArray[16].m  |Mux_266                    |    16|
+|11    |    \MuxArray[17].m  |Mux_267                    |    16|
+|12    |    \MuxArray[18].m  |Mux_268                    |    16|
+|13    |    \MuxArray[19].m  |Mux_269                    |    16|
+|14    |    \MuxArray[1].m   |Mux_270                    |    16|
+|15    |    \MuxArray[20].m  |Mux_271                    |    16|
+|16    |    \MuxArray[21].m  |Mux_272                    |    16|
+|17    |    \MuxArray[22].m  |Mux_273                    |    16|
+|18    |    \MuxArray[23].m  |Mux_274                    |    16|
+|19    |    \MuxArray[24].m  |Mux_275                    |    16|
+|20    |    \MuxArray[25].m  |Mux_276                    |    16|
+|21    |    \MuxArray[26].m  |Mux_277                    |    16|
+|22    |    \MuxArray[27].m  |Mux_278                    |    16|
+|23    |    \MuxArray[28].m  |Mux_279                    |    16|
+|24    |    \MuxArray[29].m  |Mux_280                    |    16|
+|25    |    \MuxArray[2].m   |Mux_281                    |    16|
+|26    |    \MuxArray[30].m  |Mux_282                    |    16|
+|27    |    \MuxArray[31].m  |Mux_283                    |    16|
+|28    |    \MuxArray[32].m  |Mux_284                    |    16|
+|29    |    \MuxArray[33].m  |Mux_285                    |    16|
+|30    |    \MuxArray[34].m  |Mux_286                    |    16|
+|31    |    \MuxArray[35].m  |Mux_287                    |    16|
+|32    |    \MuxArray[36].m  |Mux_288                    |    16|
+|33    |    \MuxArray[37].m  |Mux_289                    |    16|
+|34    |    \MuxArray[38].m  |Mux_290                    |    16|
+|35    |    \MuxArray[39].m  |Mux_291                    |    16|
+|36    |    \MuxArray[3].m   |Mux_292                    |    16|
+|37    |    \MuxArray[40].m  |Mux_293                    |    16|
+|38    |    \MuxArray[41].m  |Mux_294                    |    16|
+|39    |    \MuxArray[42].m  |Mux_295                    |    16|
+|40    |    \MuxArray[43].m  |Mux_296                    |    16|
+|41    |    \MuxArray[44].m  |Mux_297                    |    16|
+|42    |    \MuxArray[45].m  |Mux_298                    |    16|
+|43    |    \MuxArray[46].m  |Mux_299                    |    16|
+|44    |    \MuxArray[47].m  |Mux_300                    |    16|
+|45    |    \MuxArray[48].m  |Mux_301                    |    16|
+|46    |    \MuxArray[49].m  |Mux_302                    |    16|
+|47    |    \MuxArray[4].m   |Mux_303                    |    16|
+|48    |    \MuxArray[50].m  |Mux_304                    |    16|
+|49    |    \MuxArray[51].m  |Mux_305                    |    16|
+|50    |    \MuxArray[52].m  |Mux_306                    |    16|
+|51    |    \MuxArray[53].m  |Mux_307                    |    16|
+|52    |    \MuxArray[54].m  |Mux_308                    |    16|
+|53    |    \MuxArray[55].m  |Mux_309                    |    16|
+|54    |    \MuxArray[56].m  |Mux_310                    |    16|
+|55    |    \MuxArray[57].m  |Mux_311                    |    16|
+|56    |    \MuxArray[58].m  |Mux_312                    |    16|
+|57    |    \MuxArray[59].m  |Mux_313                    |    16|
+|58    |    \MuxArray[5].m   |Mux_314                    |    16|
+|59    |    \MuxArray[60].m  |Mux_315                    |    16|
+|60    |    \MuxArray[61].m  |Mux_316                    |    16|
+|61    |    \MuxArray[62].m  |Mux_317                    |    16|
+|62    |    \MuxArray[63].m  |Mux_318                    |    16|
+|63    |    \MuxArray[6].m   |Mux_319                    |    16|
+|64    |    \MuxArray[7].m   |Mux_320                    |    16|
+|65    |    \MuxArray[8].m   |Mux_321                    |    16|
+|66    |    \MuxArray[9].m   |Mux_322                    |    16|
+|67    |    SR               |StageRegister_323          |   512|
+|68    |  \StageArray[1].s   |ShiftStage__parameterized0 |  1024|
+|69    |    \MuxArray[0].m   |Mux_194                    |     8|
+|70    |    \MuxArray[10].m  |Mux_195                    |     8|
+|71    |    \MuxArray[11].m  |Mux_196                    |     8|
+|72    |    \MuxArray[12].m  |Mux_197                    |     8|
+|73    |    \MuxArray[13].m  |Mux_198                    |     8|
+|74    |    \MuxArray[14].m  |Mux_199                    |     8|
+|75    |    \MuxArray[15].m  |Mux_200                    |     8|
+|76    |    \MuxArray[16].m  |Mux_201                    |     8|
+|77    |    \MuxArray[17].m  |Mux_202                    |     8|
+|78    |    \MuxArray[18].m  |Mux_203                    |     8|
+|79    |    \MuxArray[19].m  |Mux_204                    |     8|
+|80    |    \MuxArray[1].m   |Mux_205                    |     8|
+|81    |    \MuxArray[20].m  |Mux_206                    |     8|
+|82    |    \MuxArray[21].m  |Mux_207                    |     8|
+|83    |    \MuxArray[22].m  |Mux_208                    |     8|
+|84    |    \MuxArray[23].m  |Mux_209                    |     8|
+|85    |    \MuxArray[24].m  |Mux_210                    |     8|
+|86    |    \MuxArray[25].m  |Mux_211                    |     8|
+|87    |    \MuxArray[26].m  |Mux_212                    |     8|
+|88    |    \MuxArray[27].m  |Mux_213                    |     8|
+|89    |    \MuxArray[28].m  |Mux_214                    |     8|
+|90    |    \MuxArray[29].m  |Mux_215                    |     8|
+|91    |    \MuxArray[2].m   |Mux_216                    |     8|
+|92    |    \MuxArray[30].m  |Mux_217                    |     8|
+|93    |    \MuxArray[31].m  |Mux_218                    |     8|
+|94    |    \MuxArray[32].m  |Mux_219                    |     8|
+|95    |    \MuxArray[33].m  |Mux_220                    |     8|
+|96    |    \MuxArray[34].m  |Mux_221                    |     8|
+|97    |    \MuxArray[35].m  |Mux_222                    |     8|
+|98    |    \MuxArray[36].m  |Mux_223                    |     8|
+|99    |    \MuxArray[37].m  |Mux_224                    |     8|
+|100   |    \MuxArray[38].m  |Mux_225                    |     8|
+|101   |    \MuxArray[39].m  |Mux_226                    |     8|
+|102   |    \MuxArray[3].m   |Mux_227                    |     8|
+|103   |    \MuxArray[40].m  |Mux_228                    |     8|
+|104   |    \MuxArray[41].m  |Mux_229                    |     8|
+|105   |    \MuxArray[42].m  |Mux_230                    |     8|
+|106   |    \MuxArray[43].m  |Mux_231                    |     8|
+|107   |    \MuxArray[44].m  |Mux_232                    |     8|
+|108   |    \MuxArray[45].m  |Mux_233                    |     8|
+|109   |    \MuxArray[46].m  |Mux_234                    |     8|
+|110   |    \MuxArray[47].m  |Mux_235                    |     8|
+|111   |    \MuxArray[48].m  |Mux_236                    |     8|
+|112   |    \MuxArray[49].m  |Mux_237                    |     8|
+|113   |    \MuxArray[4].m   |Mux_238                    |     8|
+|114   |    \MuxArray[50].m  |Mux_239                    |     8|
+|115   |    \MuxArray[51].m  |Mux_240                    |     8|
+|116   |    \MuxArray[52].m  |Mux_241                    |     8|
+|117   |    \MuxArray[53].m  |Mux_242                    |     8|
+|118   |    \MuxArray[54].m  |Mux_243                    |     8|
+|119   |    \MuxArray[55].m  |Mux_244                    |     8|
+|120   |    \MuxArray[56].m  |Mux_245                    |     8|
+|121   |    \MuxArray[57].m  |Mux_246                    |     8|
+|122   |    \MuxArray[58].m  |Mux_247                    |     8|
+|123   |    \MuxArray[59].m  |Mux_248                    |     8|
+|124   |    \MuxArray[5].m   |Mux_249                    |     8|
+|125   |    \MuxArray[60].m  |Mux_250                    |     8|
+|126   |    \MuxArray[61].m  |Mux_251                    |     8|
+|127   |    \MuxArray[62].m  |Mux_252                    |     8|
+|128   |    \MuxArray[63].m  |Mux_253                    |     8|
+|129   |    \MuxArray[6].m   |Mux_254                    |     8|
+|130   |    \MuxArray[7].m   |Mux_255                    |     8|
+|131   |    \MuxArray[8].m   |Mux_256                    |     8|
+|132   |    \MuxArray[9].m   |Mux_257                    |     8|
+|133   |    SR               |StageRegister_258          |   512|
+|134   |  \StageArray[2].s   |ShiftStage__parameterized1 |  1024|
+|135   |    \MuxArray[0].m   |Mux_129                    |     8|
+|136   |    \MuxArray[10].m  |Mux_130                    |     8|
+|137   |    \MuxArray[11].m  |Mux_131                    |     8|
+|138   |    \MuxArray[12].m  |Mux_132                    |     8|
+|139   |    \MuxArray[13].m  |Mux_133                    |     8|
+|140   |    \MuxArray[14].m  |Mux_134                    |     8|
+|141   |    \MuxArray[15].m  |Mux_135                    |     8|
+|142   |    \MuxArray[16].m  |Mux_136                    |     8|
+|143   |    \MuxArray[17].m  |Mux_137                    |     8|
+|144   |    \MuxArray[18].m  |Mux_138                    |     8|
+|145   |    \MuxArray[19].m  |Mux_139                    |     8|
+|146   |    \MuxArray[1].m   |Mux_140                    |     8|
+|147   |    \MuxArray[20].m  |Mux_141                    |     8|
+|148   |    \MuxArray[21].m  |Mux_142                    |     8|
+|149   |    \MuxArray[22].m  |Mux_143                    |     8|
+|150   |    \MuxArray[23].m  |Mux_144                    |     8|
+|151   |    \MuxArray[24].m  |Mux_145                    |     8|
+|152   |    \MuxArray[25].m  |Mux_146                    |     8|
+|153   |    \MuxArray[26].m  |Mux_147                    |     8|
+|154   |    \MuxArray[27].m  |Mux_148                    |     8|
+|155   |    \MuxArray[28].m  |Mux_149                    |     8|
+|156   |    \MuxArray[29].m  |Mux_150                    |     8|
+|157   |    \MuxArray[2].m   |Mux_151                    |     8|
+|158   |    \MuxArray[30].m  |Mux_152                    |     8|
+|159   |    \MuxArray[31].m  |Mux_153                    |     8|
+|160   |    \MuxArray[32].m  |Mux_154                    |     8|
+|161   |    \MuxArray[33].m  |Mux_155                    |     8|
+|162   |    \MuxArray[34].m  |Mux_156                    |     8|
+|163   |    \MuxArray[35].m  |Mux_157                    |     8|
+|164   |    \MuxArray[36].m  |Mux_158                    |     8|
+|165   |    \MuxArray[37].m  |Mux_159                    |     8|
+|166   |    \MuxArray[38].m  |Mux_160                    |     8|
+|167   |    \MuxArray[39].m  |Mux_161                    |     8|
+|168   |    \MuxArray[3].m   |Mux_162                    |     8|
+|169   |    \MuxArray[40].m  |Mux_163                    |     8|
+|170   |    \MuxArray[41].m  |Mux_164                    |     8|
+|171   |    \MuxArray[42].m  |Mux_165                    |     8|
+|172   |    \MuxArray[43].m  |Mux_166                    |     8|
+|173   |    \MuxArray[44].m  |Mux_167                    |     8|
+|174   |    \MuxArray[45].m  |Mux_168                    |     8|
+|175   |    \MuxArray[46].m  |Mux_169                    |     8|
+|176   |    \MuxArray[47].m  |Mux_170                    |     8|
+|177   |    \MuxArray[48].m  |Mux_171                    |     8|
+|178   |    \MuxArray[49].m  |Mux_172                    |     8|
+|179   |    \MuxArray[4].m   |Mux_173                    |     8|
+|180   |    \MuxArray[50].m  |Mux_174                    |     8|
+|181   |    \MuxArray[51].m  |Mux_175                    |     8|
+|182   |    \MuxArray[52].m  |Mux_176                    |     8|
+|183   |    \MuxArray[53].m  |Mux_177                    |     8|
+|184   |    \MuxArray[54].m  |Mux_178                    |     8|
+|185   |    \MuxArray[55].m  |Mux_179                    |     8|
+|186   |    \MuxArray[56].m  |Mux_180                    |     8|
+|187   |    \MuxArray[57].m  |Mux_181                    |     8|
+|188   |    \MuxArray[58].m  |Mux_182                    |     8|
+|189   |    \MuxArray[59].m  |Mux_183                    |     8|
+|190   |    \MuxArray[5].m   |Mux_184                    |     8|
+|191   |    \MuxArray[60].m  |Mux_185                    |     8|
+|192   |    \MuxArray[61].m  |Mux_186                    |     8|
+|193   |    \MuxArray[62].m  |Mux_187                    |     8|
+|194   |    \MuxArray[63].m  |Mux_188                    |     8|
+|195   |    \MuxArray[6].m   |Mux_189                    |     8|
+|196   |    \MuxArray[7].m   |Mux_190                    |     8|
+|197   |    \MuxArray[8].m   |Mux_191                    |     8|
+|198   |    \MuxArray[9].m   |Mux_192                    |     8|
+|199   |    SR               |StageRegister_193          |   512|
+|200   |  \StageArray[3].s   |ShiftStage__parameterized2 |  1024|
+|201   |    \MuxArray[0].m   |Mux_64                     |     8|
+|202   |    \MuxArray[10].m  |Mux_65                     |     8|
+|203   |    \MuxArray[11].m  |Mux_66                     |     8|
+|204   |    \MuxArray[12].m  |Mux_67                     |     8|
+|205   |    \MuxArray[13].m  |Mux_68                     |     8|
+|206   |    \MuxArray[14].m  |Mux_69                     |     8|
+|207   |    \MuxArray[15].m  |Mux_70                     |     8|
+|208   |    \MuxArray[16].m  |Mux_71                     |     8|
+|209   |    \MuxArray[17].m  |Mux_72                     |     8|
+|210   |    \MuxArray[18].m  |Mux_73                     |     8|
+|211   |    \MuxArray[19].m  |Mux_74                     |     8|
+|212   |    \MuxArray[1].m   |Mux_75                     |     8|
+|213   |    \MuxArray[20].m  |Mux_76                     |     8|
+|214   |    \MuxArray[21].m  |Mux_77                     |     8|
+|215   |    \MuxArray[22].m  |Mux_78                     |     8|
+|216   |    \MuxArray[23].m  |Mux_79                     |     8|
+|217   |    \MuxArray[24].m  |Mux_80                     |     8|
+|218   |    \MuxArray[25].m  |Mux_81                     |     8|
+|219   |    \MuxArray[26].m  |Mux_82                     |     8|
+|220   |    \MuxArray[27].m  |Mux_83                     |     8|
+|221   |    \MuxArray[28].m  |Mux_84                     |     8|
+|222   |    \MuxArray[29].m  |Mux_85                     |     8|
+|223   |    \MuxArray[2].m   |Mux_86                     |     8|
+|224   |    \MuxArray[30].m  |Mux_87                     |     8|
+|225   |    \MuxArray[31].m  |Mux_88                     |     8|
+|226   |    \MuxArray[32].m  |Mux_89                     |     8|
+|227   |    \MuxArray[33].m  |Mux_90                     |     8|
+|228   |    \MuxArray[34].m  |Mux_91                     |     8|
+|229   |    \MuxArray[35].m  |Mux_92                     |     8|
+|230   |    \MuxArray[36].m  |Mux_93                     |     8|
+|231   |    \MuxArray[37].m  |Mux_94                     |     8|
+|232   |    \MuxArray[38].m  |Mux_95                     |     8|
+|233   |    \MuxArray[39].m  |Mux_96                     |     8|
+|234   |    \MuxArray[3].m   |Mux_97                     |     8|
+|235   |    \MuxArray[40].m  |Mux_98                     |     8|
+|236   |    \MuxArray[41].m  |Mux_99                     |     8|
+|237   |    \MuxArray[42].m  |Mux_100                    |     8|
+|238   |    \MuxArray[43].m  |Mux_101                    |     8|
+|239   |    \MuxArray[44].m  |Mux_102                    |     8|
+|240   |    \MuxArray[45].m  |Mux_103                    |     8|
+|241   |    \MuxArray[46].m  |Mux_104                    |     8|
+|242   |    \MuxArray[47].m  |Mux_105                    |     8|
+|243   |    \MuxArray[48].m  |Mux_106                    |     8|
+|244   |    \MuxArray[49].m  |Mux_107                    |     8|
+|245   |    \MuxArray[4].m   |Mux_108                    |     8|
+|246   |    \MuxArray[50].m  |Mux_109                    |     8|
+|247   |    \MuxArray[51].m  |Mux_110                    |     8|
+|248   |    \MuxArray[52].m  |Mux_111                    |     8|
+|249   |    \MuxArray[53].m  |Mux_112                    |     8|
+|250   |    \MuxArray[54].m  |Mux_113                    |     8|
+|251   |    \MuxArray[55].m  |Mux_114                    |     8|
+|252   |    \MuxArray[56].m  |Mux_115                    |     8|
+|253   |    \MuxArray[57].m  |Mux_116                    |     8|
+|254   |    \MuxArray[58].m  |Mux_117                    |     8|
+|255   |    \MuxArray[59].m  |Mux_118                    |     8|
+|256   |    \MuxArray[5].m   |Mux_119                    |     8|
+|257   |    \MuxArray[60].m  |Mux_120                    |     8|
+|258   |    \MuxArray[61].m  |Mux_121                    |     8|
+|259   |    \MuxArray[62].m  |Mux_122                    |     8|
+|260   |    \MuxArray[63].m  |Mux_123                    |     8|
+|261   |    \MuxArray[6].m   |Mux_124                    |     8|
+|262   |    \MuxArray[7].m   |Mux_125                    |     8|
+|263   |    \MuxArray[8].m   |Mux_126                    |     8|
+|264   |    \MuxArray[9].m   |Mux_127                    |     8|
+|265   |    SR               |StageRegister_128          |   512|
+|266   |  \StageArray[4].s   |ShiftStage__parameterized3 |  1024|
+|267   |    \MuxArray[0].m   |Mux                        |     8|
+|268   |    \MuxArray[10].m  |Mux_0                      |     8|
+|269   |    \MuxArray[11].m  |Mux_1                      |     8|
+|270   |    \MuxArray[12].m  |Mux_2                      |     8|
+|271   |    \MuxArray[13].m  |Mux_3                      |     8|
+|272   |    \MuxArray[14].m  |Mux_4                      |     8|
+|273   |    \MuxArray[15].m  |Mux_5                      |     8|
+|274   |    \MuxArray[16].m  |Mux_6                      |     8|
+|275   |    \MuxArray[17].m  |Mux_7                      |     8|
+|276   |    \MuxArray[18].m  |Mux_8                      |     8|
+|277   |    \MuxArray[19].m  |Mux_9                      |     8|
+|278   |    \MuxArray[1].m   |Mux_10                     |     8|
+|279   |    \MuxArray[20].m  |Mux_11                     |     8|
+|280   |    \MuxArray[21].m  |Mux_12                     |     8|
+|281   |    \MuxArray[22].m  |Mux_13                     |     8|
+|282   |    \MuxArray[23].m  |Mux_14                     |     8|
+|283   |    \MuxArray[24].m  |Mux_15                     |     8|
+|284   |    \MuxArray[25].m  |Mux_16                     |     8|
+|285   |    \MuxArray[26].m  |Mux_17                     |     8|
+|286   |    \MuxArray[27].m  |Mux_18                     |     8|
+|287   |    \MuxArray[28].m  |Mux_19                     |     8|
+|288   |    \MuxArray[29].m  |Mux_20                     |     8|
+|289   |    \MuxArray[2].m   |Mux_21                     |     8|
+|290   |    \MuxArray[30].m  |Mux_22                     |     8|
+|291   |    \MuxArray[31].m  |Mux_23                     |     8|
+|292   |    \MuxArray[32].m  |Mux_24                     |     8|
+|293   |    \MuxArray[33].m  |Mux_25                     |     8|
+|294   |    \MuxArray[34].m  |Mux_26                     |     8|
+|295   |    \MuxArray[35].m  |Mux_27                     |     8|
+|296   |    \MuxArray[36].m  |Mux_28                     |     8|
+|297   |    \MuxArray[37].m  |Mux_29                     |     8|
+|298   |    \MuxArray[38].m  |Mux_30                     |     8|
+|299   |    \MuxArray[39].m  |Mux_31                     |     8|
+|300   |    \MuxArray[3].m   |Mux_32                     |     8|
+|301   |    \MuxArray[40].m  |Mux_33                     |     8|
+|302   |    \MuxArray[41].m  |Mux_34                     |     8|
+|303   |    \MuxArray[42].m  |Mux_35                     |     8|
+|304   |    \MuxArray[43].m  |Mux_36                     |     8|
+|305   |    \MuxArray[44].m  |Mux_37                     |     8|
+|306   |    \MuxArray[45].m  |Mux_38                     |     8|
+|307   |    \MuxArray[46].m  |Mux_39                     |     8|
+|308   |    \MuxArray[47].m  |Mux_40                     |     8|
+|309   |    \MuxArray[48].m  |Mux_41                     |     8|
+|310   |    \MuxArray[49].m  |Mux_42                     |     8|
+|311   |    \MuxArray[4].m   |Mux_43                     |     8|
+|312   |    \MuxArray[50].m  |Mux_44                     |     8|
+|313   |    \MuxArray[51].m  |Mux_45                     |     8|
+|314   |    \MuxArray[52].m  |Mux_46                     |     8|
+|315   |    \MuxArray[53].m  |Mux_47                     |     8|
+|316   |    \MuxArray[54].m  |Mux_48                     |     8|
+|317   |    \MuxArray[55].m  |Mux_49                     |     8|
+|318   |    \MuxArray[56].m  |Mux_50                     |     8|
+|319   |    \MuxArray[57].m  |Mux_51                     |     8|
+|320   |    \MuxArray[58].m  |Mux_52                     |     8|
+|321   |    \MuxArray[59].m  |Mux_53                     |     8|
+|322   |    \MuxArray[5].m   |Mux_54                     |     8|
+|323   |    \MuxArray[60].m  |Mux_55                     |     8|
+|324   |    \MuxArray[61].m  |Mux_56                     |     8|
+|325   |    \MuxArray[62].m  |Mux_57                     |     8|
+|326   |    \MuxArray[63].m  |Mux_58                     |     8|
+|327   |    \MuxArray[6].m   |Mux_59                     |     8|
+|328   |    \MuxArray[7].m   |Mux_60                     |     8|
+|329   |    \MuxArray[8].m   |Mux_61                     |     8|
+|330   |    \MuxArray[9].m   |Mux_62                     |     8|
+|331   |    SR               |StageRegister_63           |   512|
+|332   |  \StageArray[5].s   |ShiftStage__parameterized4 |   513|
+|333   |    SR               |StageRegister              |   513|
++------+---------------------+---------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 1013.676 ; gain = 451.332
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:28 ; elapsed = 00:00:35 . Memory (MB): peak = 1013.676 ; gain = 323.363
+Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 1013.676 ; gain = 451.332
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.149 . Memory (MB): peak = 1013.676 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1030.711 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+27 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:44 ; elapsed = 00:01:00 . Memory (MB): peak = 1030.711 ; gain = 730.055
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1030.711 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/XilinxPorject/Assignment2_Q1_BarrelShifter/Assignment2_Q1_BarrelShifter.runs/synth_1/BarrelShifter.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file BarrelShifter_utilization_synth.rpt -pb BarrelShifter_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Apr  2 21:06:07 2020...

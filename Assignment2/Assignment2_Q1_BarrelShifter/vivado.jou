@@ -1,0 +1,93 @@
+#-----------------------------------------------------------
+# Vivado v2019.2.1 (64-bit)
+# SW Build 2729669 on Thu Dec  5 04:49:17 MST 2019
+# IP Build 2729494 on Thu Dec  5 07:38:25 MST 2019
+# Start of session at: Thu Apr  2 16:37:58 2020
+# Process ID: 5460
+# Current directory: D:/XilinxPorject/Assignment2_Q1_BarrelShifter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11548 D:\XilinxPorject\Assignment2_Q1_BarrelShifter\Assignment2_Q1_BarrelShifter.xpr
+# Log file: D:/XilinxPorject/Assignment2_Q1_BarrelShifter/vivado.log
+# Journal file: D:/XilinxPorject/Assignment2_Q1_BarrelShifter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/XilinxPorject/Assignment2_Q1_BarrelShifter/Assignment2_Q1_BarrelShifter.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+launch_simulation
+source BarrelShifter_tb.tcl
+open_project D:/XilinxPorject/Assignment2_Q2_SystolicArrayforDMM/Assignment2_Q2_SystolicArrayforDMM.xpr
+update_compile_order -fileset sources_1
+current_project Assignment2_Q1_BarrelShifter
+current_project Assignment2_Q2_SystolicArrayforDMM
+current_project Assignment2_Q1_BarrelShifter
+close_sim
+launch_simulation
+source BarrelShifter_tb.tcl
+close_sim
+launch_simulation
+source BarrelShifter_tb.tcl
+close_sim
+launch_simulation
+source BarrelShifter_tb.tcl
+launch_simulation
+source BarrelShifter_tb.tcl
+close_sim
+launch_simulation
+source BarrelShifter_tb.tcl
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+current_project Assignment2_Q2_SystolicArrayforDMM
+synth_design -rtl -name rtl_1
+current_project Assignment2_Q1_BarrelShifter
+open_run synth_1 -name synth_1
+current_project Assignment2_Q2_SystolicArrayforDMM
+current_project Assignment2_Q1_BarrelShifter
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+set_operating_conditions -grade extended
+report_power -name {power_1}
+current_project Assignment2_Q2_SystolicArrayforDMM
+current_project Assignment2_Q1_BarrelShifter
+current_design rtl_1
+refresh_design
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+current_design synth_1
+refresh_design
+report_utilization -name utilization_1
+report_utilization -name utilization_2
+set_operating_conditions -grade extended
+report_power -name {power_1}
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+close_sim
+launch_simulation
+source BarrelShifter_tb.tcl
+current_project Assignment2_Q2_SystolicArrayforDMM
+launch_simulation
+open_wave_config D:/XilinxPorject/Assignment2_Q2_SystolicArrayforDMM/SystolicArray_tb_behav.wcfg
+source SystolicArray_tb.tcl
+current_project Assignment2_Q1_BarrelShifter
+close_sim
+close_sim
+close_project
+launch_simulation
+open_wave_config D:/XilinxPorject/Assignment2_Q2_SystolicArrayforDMM/SystolicArray_tb_behav.wcfg
+source SystolicArray_tb.tcl
+close_sim
+launch_simulation
+open_wave_config D:/XilinxPorject/Assignment2_Q2_SystolicArrayforDMM/SystolicArray_tb_behav.wcfg
+source SystolicArray_tb.tcl
+current_wave_config {SystolicArray_tb_behav.wcfg}
+add_wave {{/SystolicArray_tb/output_flag}} 
+current_wave_config {SystolicArray_tb_behav.wcfg}
+log_wave {/SystolicArray_tb/output_flag} 
+current_wave_config {SystolicArray_tb_behav.wcfg}
+add_wave {{/SystolicArray_tb/output_flag}} 
+save_wave_config {D:/XilinxPorject/Assignment2_Q2_SystolicArrayforDMM/SystolicArray_tb_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config D:/XilinxPorject/Assignment2_Q2_SystolicArrayforDMM/SystolicArray_tb_behav.wcfg
+source SystolicArray_tb.tcl
+close_sim
+launch_simulation
+open_wave_config D:/XilinxPorject/Assignment2_Q2_SystolicArrayforDMM/SystolicArray_tb_behav.wcfg

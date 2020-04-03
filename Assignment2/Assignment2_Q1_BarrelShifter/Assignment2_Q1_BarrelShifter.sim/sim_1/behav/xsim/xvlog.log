@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux
+INFO: [VRFC 10-311] analyzing module StageRegister
+INFO: [VRFC 10-311] analyzing module ShiftStage
+INFO: [VRFC 10-311] analyzing module BarrelShifter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/XilinxPorject/Assignment2_Q1_BarrelShifter/ee599_assignment2_Q1_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BarrelShifter_tb

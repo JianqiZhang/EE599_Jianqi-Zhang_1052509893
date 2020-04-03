@@ -1,0 +1,12 @@
+
+{ 
+    crc :  18178448664671488710  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto dc12ca6c072e448d95f19f9df39b3112 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BarrelShifter_tb_behav xil_defaultlib.BarrelShifter_tb xil_defaultlib.glbl" , 
+    buildDate : "Dec  5 2019" , 
+    buildTime : "05:06:03" , 
+    linkCmd : "E:\\Xilinx\\Vivado\\2019.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/BarrelShifter_tb_behav/xsimk.exe\"   \"xsim.dir/BarrelShifter_tb_behav/obj/xsim_0.win64.obj\" \"xsim.dir/BarrelShifter_tb_behav/obj/xsim_1.win64.obj\" -L\"E:\\Xilinx\\Vivado\\2019.2\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
