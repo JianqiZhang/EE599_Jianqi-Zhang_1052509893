@@ -1,0 +1,21 @@
+--- /homes/hrong1/tmp/a.cl	2020-03-20 18:29:17.326932000 -0700
++++ /homes/hrong1/tmp/b.cl	2020-03-20 18:27:56.732172000 -0700
+@@ -533,6 +533,7 @@
+ __kernel void kernel_C_channel(
+ )
+ {
++ bool first = true;
+  float16 _rch_1;
+  float16 _rch_0;
+  int _165 = get_compute_id(0);
+@@ -591,7 +592,9 @@
+    int _177 = _176 >> 10;
+    bool _178 = _177 == 0;
+    bool _179 = _175 && _178;
+-   if (_179)
++   if (!_175)
++     first = false;
++   if (_179 && !first)
+    {
+     DPRINTF ("C(%d,%d): write_channel _C_0_channel data: %f\n",_165,_166,_c);
+     write_channel_intel(_C_0_channel[_165][_166], _c);

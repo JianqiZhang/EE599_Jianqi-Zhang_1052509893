@@ -1,0 +1,21 @@
+--- /homes/nitishks/tmp/t704712969.cl	2020-02-23 17:07:03.421568000 -0800
++++ a.cl	2020-02-23 17:08:07.007596000 -0800
+@@ -487,6 +487,7 @@
+ __kernel void kernel_C_channel(
+ )
+ {
++ bool first = true;
+  float2 _rch_1;
+  float2 _rch_0;
+  int _121 = get_compute_id(0);
+@@ -545,7 +546,9 @@
+    int _133 = _132 >> 2;
+    bool _134 = _133 == 0;
+    bool _135 = _131 && _134;
+-   if (_135)
++   if (!_131)
++     first = false;
++   if (_135 && !first)
+    {
+     DPRINTF ("C(%d,%d): write_channel _C_0_channel data: %f\n",_121,_122,_c);
+     write_channel_intel(_C_0_channel[_121][_122], _c);

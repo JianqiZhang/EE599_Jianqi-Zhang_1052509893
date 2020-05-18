@@ -1,0 +1,553 @@
+{
+  "performanceSummary":
+  {
+    "name":"Kernel Summary"
+    , "columns":
+    ["Kernel Name", "Kernel Type", "Autorun", "Workgroup Size", "# Compute Units"]
+    , "children":
+    [
+      {
+        "name":"kernel_A_feeder_channel"
+        , "data":
+        [
+          "Single work-item"
+          , "Yes"
+          , [1, 1, 1]
+          , 8
+        ]
+        , "details":
+        [
+          {
+            "type":"text"
+            , "text":"Kernel type: Single work-item"
+          }
+          , {
+            "type":"text"
+            , "text":"Autorun Kernel: This kernel will start running before any other kernel is explicitly launched by the host.  The kernel will be automatically restarted as soon as it finishes."
+          }
+          , {
+            "type":"text"
+            , "text":"The kernel was replicated 8 times due to num_compute_units attribute. Since the kernel is compiled for single work-item execution, all copies will perform identical computations. This may not be what you intended."
+          }
+          , {
+            "type":"text"
+            , "text":"Max global work dimension: 0"
+          }
+          , {
+            "type":"text"
+            , "text":"Required workgroup size: (1, 1, 1)"
+          }
+          , {
+            "type":"text"
+            , "text":"Maximum workgroup size: 1"
+          }
+        ]
+        , "debug":
+        [
+          [
+            {
+              "filename":"/homes/jianqiz/tmp/a.cl"
+              , "line":154
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"kernel_A_loader_channel"
+        , "data":
+        [
+          "Single work-item"
+          , "No"
+          , [1, 1, 1]
+          , 1
+        ]
+        , "details":
+        [
+          {
+            "type":"text"
+            , "text":"Kernel type: Single work-item"
+          }
+          , {
+            "type":"text"
+            , "text":"Required workgroup size: (1, 1, 1)"
+          }
+          , {
+            "type":"text"
+            , "text":"Maximum workgroup size: 1"
+          }
+        ]
+        , "debug":
+        [
+          [
+            {
+              "filename":"/homes/jianqiz/tmp/a.cl"
+              , "line":51
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"kernel_B_feeder_channel_autorun_run_on_device_140"
+        , "data":
+        [
+          "Single work-item"
+          , "Yes"
+          , [1, 1, 1]
+          , 4
+        ]
+        , "details":
+        [
+          {
+            "type":"text"
+            , "text":"Kernel type: Single work-item"
+          }
+          , {
+            "type":"text"
+            , "text":"Autorun Kernel: This kernel will start running before any other kernel is explicitly launched by the host.  The kernel will be automatically restarted as soon as it finishes."
+          }
+          , {
+            "type":"text"
+            , "text":"The kernel was replicated 4 times due to num_compute_units attribute. Since the kernel is compiled for single work-item execution, all copies will perform identical computations. This may not be what you intended."
+          }
+          , {
+            "type":"text"
+            , "text":"Max global work dimension: 0"
+          }
+          , {
+            "type":"text"
+            , "text":"Required workgroup size: (1, 1, 1)"
+          }
+          , {
+            "type":"text"
+            , "text":"Maximum workgroup size: 1"
+          }
+        ]
+        , "debug":
+        [
+          [
+            {
+              "filename":"/homes/jianqiz/tmp/a.cl"
+              , "line":435
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"kernel_B_loader_channel"
+        , "data":
+        [
+          "Single work-item"
+          , "No"
+          , [1, 1, 1]
+          , 1
+        ]
+        , "details":
+        [
+          {
+            "type":"text"
+            , "text":"Kernel type: Single work-item"
+          }
+          , {
+            "type":"text"
+            , "text":"Required workgroup size: (1, 1, 1)"
+          }
+          , {
+            "type":"text"
+            , "text":"Maximum workgroup size: 1"
+          }
+        ]
+        , "debug":
+        [
+          [
+            {
+              "filename":"/homes/jianqiz/tmp/a.cl"
+              , "line":341
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"kernel_C_channel"
+        , "data":
+        [
+          "Single work-item"
+          , "Yes"
+          , [1, 1, 1]
+          , 32
+        ]
+        , "details":
+        [
+          {
+            "type":"text"
+            , "text":"Kernel type: Single work-item"
+          }
+          , {
+            "type":"text"
+            , "text":"Autorun Kernel: This kernel will start running before any other kernel is explicitly launched by the host.  The kernel will be automatically restarted as soon as it finishes."
+          }
+          , {
+            "type":"text"
+            , "text":"The kernel was replicated 32 times due to num_compute_units attribute. Since the kernel is compiled for single work-item execution, all copies will perform identical computations. This may not be what you intended."
+          }
+          , {
+            "type":"text"
+            , "text":"Max global work dimension: 0"
+          }
+          , {
+            "type":"text"
+            , "text":"Required workgroup size: (1, 1, 1)"
+          }
+          , {
+            "type":"text"
+            , "text":"Maximum workgroup size: 1"
+          }
+        ]
+        , "debug":
+        [
+          [
+            {
+              "filename":"/homes/jianqiz/tmp/a.cl"
+              , "line":621
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"kernel_C_collector_channel"
+        , "data":
+        [
+          "Single work-item"
+          , "Yes"
+          , [1, 1, 1]
+          , 4
+        ]
+        , "details":
+        [
+          {
+            "type":"text"
+            , "text":"Kernel type: Single work-item"
+          }
+          , {
+            "type":"text"
+            , "text":"Autorun Kernel: This kernel will start running before any other kernel is explicitly launched by the host.  The kernel will be automatically restarted as soon as it finishes."
+          }
+          , {
+            "type":"text"
+            , "text":"The kernel was replicated 4 times due to num_compute_units attribute. Since the kernel is compiled for single work-item execution, all copies will perform identical computations. This may not be what you intended."
+          }
+          , {
+            "type":"text"
+            , "text":"Max global work dimension: 0"
+          }
+          , {
+            "type":"text"
+            , "text":"Required workgroup size: (1, 1, 1)"
+          }
+          , {
+            "type":"text"
+            , "text":"Maximum workgroup size: 1"
+          }
+        ]
+        , "debug":
+        [
+          [
+            {
+              "filename":"/homes/jianqiz/tmp/a.cl"
+              , "line":840
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"kernel_C_drainer_channel"
+        , "data":
+        [
+          "Single work-item"
+          , "Yes"
+          , [1, 1, 1]
+          , 32
+        ]
+        , "details":
+        [
+          {
+            "type":"text"
+            , "text":"Kernel type: Single work-item"
+          }
+          , {
+            "type":"text"
+            , "text":"Autorun Kernel: This kernel will start running before any other kernel is explicitly launched by the host.  The kernel will be automatically restarted as soon as it finishes."
+          }
+          , {
+            "type":"text"
+            , "text":"The kernel was replicated 32 times due to num_compute_units attribute. Since the kernel is compiled for single work-item execution, all copies will perform identical computations. This may not be what you intended."
+          }
+          , {
+            "type":"text"
+            , "text":"Max global work dimension: 0"
+          }
+          , {
+            "type":"text"
+            , "text":"Required workgroup size: (1, 1, 1)"
+          }
+          , {
+            "type":"text"
+            , "text":"Maximum workgroup size: 1"
+          }
+        ]
+        , "debug":
+        [
+          [
+            {
+              "filename":"/homes/jianqiz/tmp/a.cl"
+              , "line":776
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"kernel_C_unloader"
+        , "data":
+        [
+          "Single work-item"
+          , "No"
+          , [1, 1, 1]
+          , 1
+        ]
+        , "details":
+        [
+          {
+            "type":"text"
+            , "text":"Kernel type: Single work-item"
+          }
+          , {
+            "type":"text"
+            , "text":"Required workgroup size: (1, 1, 1)"
+          }
+          , {
+            "type":"text"
+            , "text":"Maximum workgroup size: 1"
+          }
+        ]
+        , "debug":
+        [
+          [
+            {
+              "filename":"/homes/jianqiz/tmp/a.cl"
+              , "line":951
+            }
+          ]
+        ]
+      }
+    ]
+  }
+  , "estimatedResources":
+  {
+    "name":"Estimated Resource Usage"
+    , "columns":
+    ["Kernel Name", "ALUTs ", "FFs  ", "RAMs ", "DSPs "]
+    , "children":
+    [
+      {
+        "name":"kernel_A_feeder_channel (x8)"
+        , "data":
+        [24709, 41381, 0, 0]
+        , "debug":
+        [
+          [
+            {
+              "filename":"/homes/jianqiz/tmp/a.cl"
+              , "line":154
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"kernel_A_loader_channel"
+        , "data":
+        [9342, 8158, 43, 0]
+        , "debug":
+        [
+          [
+            {
+              "filename":"/homes/jianqiz/tmp/a.cl"
+              , "line":51
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"kernel_B_feeder_channel_autorun_run_on_device_140 (x4)"
+        , "data":
+        [14291, 23411, 0, 0]
+        , "debug":
+        [
+          [
+            {
+              "filename":"/homes/jianqiz/tmp/a.cl"
+              , "line":435
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"kernel_B_loader_channel"
+        , "data":
+        [8993, 7871, 43, 0]
+        , "debug":
+        [
+          [
+            {
+              "filename":"/homes/jianqiz/tmp/a.cl"
+              , "line":341
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"kernel_C_channel (x32)"
+        , "data":
+        [31321, 17431, 64, 48]
+        , "debug":
+        [
+          [
+            {
+              "filename":"/homes/jianqiz/tmp/a.cl"
+              , "line":621
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"kernel_C_collector_channel (x4)"
+        , "data":
+        [911, 548, 0, 0]
+        , "debug":
+        [
+          [
+            {
+              "filename":"/homes/jianqiz/tmp/a.cl"
+              , "line":840
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"kernel_C_drainer_channel (x32)"
+        , "data":
+        [14288, 8640, 0, 0]
+        , "debug":
+        [
+          [
+            {
+              "filename":"/homes/jianqiz/tmp/a.cl"
+              , "line":776
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"kernel_C_unloader"
+        , "data":
+        [4824, 5308, 16, 2]
+        , "debug":
+        [
+          [
+            {
+              "filename":"/homes/jianqiz/tmp/a.cl"
+              , "line":951
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"Kernel Subtotal"
+        , "classes":
+        ["summary-highlight", "nohover"]
+        , "data":
+        [108679, 112748, 166, 50]
+      }
+      , {
+        "name":"Channel Resources"
+        , "classes":
+        ["summary-highlight", "nohover"]
+        , "data":
+        [2336, 15704, 0, 0]
+      }
+      , {
+        "name":"Global Interconnect"
+        , "classes":
+        ["summary-highlight", "nohover"]
+        , "data":
+        [8779, 12545, 78, 0]
+      }
+      , {
+        "name":"Board Interface"
+        , "classes":
+        ["summary-highlight", "nohover"]
+        , "data":
+        [113900, 227800, 377, 0]
+      }
+      , {
+        "name":"Total"
+        , "classes":
+        ["summary-highlight", "nohover"]
+        , "data":
+        [233694, 368864, 623, 50]
+        , "data_percent":
+        [31.5589, 24.9064, 26.6695, 3.29381]
+      }
+      , {
+        "name":"Available"
+        , "classes":
+        ["summary-highlight", "nohover"]
+        , "data":
+        [740500, 1481000, 2336, 1518]
+      }
+    ]
+  }
+  , "compileWarnings":
+  {
+    "name":"Compile Warnings"
+    , "children":
+    [
+      {
+        "name":"Load uses a Burst-coalesced cached LSU"
+        , "details":
+        [
+          {
+            "type":"text"
+            , "text":"Load with a private 512 kilobit cache. Cache is not shared with any other load. It is flushed on kernel start. Use Dynamic Profiler to verify cache effectiveness. Other kernels should not be updating the data in global memory while this kernel is using it. Cache is created when memory access pattern is data-dependent or appears to be repetitive. Simplify access pattern or mark pointer as 'volatile' to disable generation of this cache."
+          }
+        ]
+        , "debug":
+        [
+          [
+            {
+              "filename":"/homes/jianqiz/tmp/a.cl"
+              , "line":108
+            }
+          ]
+        ]
+      }
+      , {
+        "name":"Load uses a Burst-coalesced cached LSU"
+        , "details":
+        [
+          {
+            "type":"text"
+            , "text":"Load with a private 512 kilobit cache. Cache is not shared with any other load. It is flushed on kernel start. Use Dynamic Profiler to verify cache effectiveness. Other kernels should not be updating the data in global memory while this kernel is using it. Cache is created when memory access pattern is data-dependent or appears to be repetitive. Simplify access pattern or mark pointer as 'volatile' to disable generation of this cache."
+          }
+        ]
+        , "debug":
+        [
+          [
+            {
+              "filename":"/homes/jianqiz/tmp/a.cl"
+              , "line":398
+            }
+          ]
+        ]
+      }
+    ]
+  }
+}
